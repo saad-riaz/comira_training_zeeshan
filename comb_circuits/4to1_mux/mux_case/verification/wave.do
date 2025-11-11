@@ -1,0 +1,1 @@
+add wave sim:/mux_case_tb/*
