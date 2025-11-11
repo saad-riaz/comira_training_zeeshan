@@ -1,0 +1,72 @@
+$date
+	Tue Nov 11 09:37:49 2025
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module mux_ifelse_tb $end
+$var reg 4 ! d_in [3:0] $end
+$var reg 2 " select [1:0] $end
+$var reg 1 # d_out [0:0] $end
+
+$scope function check_mux $end
+$var reg 4 $ d_in [3:0] $end
+$var reg 2 % select [1:0] $end
+$var reg 1 & d_out $end
+$var reg 1 ' expected $end
+$upscope $end
+
+$scope module dut $end
+$var wire 1 ( d_in [3] $end
+$var wire 1 ) d_in [2] $end
+$var wire 1 * d_in [1] $end
+$var wire 1 + d_in [0] $end
+$var wire 1 , select [1] $end
+$var wire 1 - select [0] $end
+$var reg 1 . d_out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11 !
+b11 "
+b0 #
+0.
+bx $
+bx %
+x&
+x'
+1+
+1*
+0)
+0(
+1-
+1,
+$end
+#10
+b11 $
+b11 %
+0&
+0'
+b10 "
+0-
+#20
+b10 %
+b1 "
+1-
+0,
+1.
+b1 #
+#30
+b1 %
+1&
+1'
+b0 "
+0-
+#40
+b0 %

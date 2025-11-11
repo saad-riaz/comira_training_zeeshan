@@ -1,0 +1,1 @@
+add wave sim:/nbit_Add_tb/*

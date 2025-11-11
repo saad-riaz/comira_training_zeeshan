@@ -1,0 +1,1 @@
+add wave sim:/odd_par_tb/*
