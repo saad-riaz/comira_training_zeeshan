@@ -1,0 +1,1 @@
+add wave sim:/barrel_shift_tb/*

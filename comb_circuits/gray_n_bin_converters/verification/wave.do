@@ -1,0 +1,1 @@
+add wave sim:/gray_n_bin_tb/*

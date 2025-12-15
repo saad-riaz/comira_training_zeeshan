@@ -1,0 +1,1 @@
+add wave sim:/booth_mult_tb/*
