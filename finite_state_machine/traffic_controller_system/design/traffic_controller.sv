@@ -1,4 +1,4 @@
-// a traffic controller system for the main and the sub highway traffic
+// a traffic controller system for the main and the sub highway traffic 
 
 module traffic_controller #(parameter CYCLES = 20)(
   input logic clk, rst,
