@@ -1,4 +1,4 @@
-//  Finite State Machine to detect if the input stream contains a number divisible by 5
+//  Finite State Machine to detect if the input stream contains a number divisible by 5 
 
 module div_by_5(
   input logic clk, rst,
