@@ -1,4 +1,4 @@
-// Single Clock FIFO buffer 32wx128d
+// Single Clock FIFO buffer 32wx128d 
 
 module fifo #(parameter WIDTH = 32, parameter DEPTH = 128)(
   input logic clk, rst,

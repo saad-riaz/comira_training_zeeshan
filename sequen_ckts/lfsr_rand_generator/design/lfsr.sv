@@ -4,7 +4,7 @@ module lfsr(
   input logic clk, rst,
   input logic load_seed,
   input logic [7:0] seed,
-  output logic [7:0] rand_num
+  output logic [7:0] rand_num 
 );
 
 

@@ -1,4 +1,4 @@
-// Verilog code to detect the positive edge of a 1-bit signal sig. It should generate a one-shot signal after detecting a positive edge.
+// Verilog code to detect the positive edge of a 1-bit signal sig. It should generate a one-shot signal after detecting a positive edge. 
 
 module posedge_detect(
   input logic clk, rst,

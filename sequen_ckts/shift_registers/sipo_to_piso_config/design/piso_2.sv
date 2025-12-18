@@ -1,4 +1,4 @@
-// 16-bit Parallel-In-Serial-Out circuit 
+// 16-bit Parallel-In-Serial-Out circuit   
 
 module piso_2(
   input logic clk, rst,

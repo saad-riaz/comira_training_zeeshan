@@ -1,4 +1,4 @@
-// Verilog code to detect the Negedge of a 1-bit signal sig. It should generate a one-shot signal after detecting a negedge.
+// Verilog code to detect the Negedge of a 1-bit signal sig. It should generate a one-shot signal after detecting a negedge. 
 
 module negedge_detect(
   input logic clk, rst,

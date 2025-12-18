@@ -1,4 +1,4 @@
-// implement a delay pipeline for 32-bit data for N Delay cycles.
+// implement a delay pipeline for 32-bit data for N Delay cycles. 
 
 module delay_pipeline #(parameter N = 4)(
   input logic clk, rst,

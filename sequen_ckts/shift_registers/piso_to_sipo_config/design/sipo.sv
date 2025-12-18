@@ -1,4 +1,4 @@
-// 16-bit Parallel-Out-Serial-In circuit
+// 16-bit Parallel-Out-Serial-In circuit 
 
 module sipo(
   input logic clk, rst,

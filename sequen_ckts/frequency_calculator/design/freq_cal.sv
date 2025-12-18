@@ -10,7 +10,7 @@ module freq_cal #(parameter FREQ = 100)(
   logic [6:0] count_sig;
   logic [6:0] freq;
 
-  // Clock edge counter block
+  // Clock edge counter block 
   always_ff @(posedge clk) begin
     if(rst)
       count_clk <= 0;

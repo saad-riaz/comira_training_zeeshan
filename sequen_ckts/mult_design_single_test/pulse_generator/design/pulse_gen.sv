@@ -1,4 +1,4 @@
-// a circuit which gives out one pulse after every 100 ns time.
+// a circuit which gives out one pulse after every 100 ns time. 
 
 module pulse_gen(
   input logic clk, rst,

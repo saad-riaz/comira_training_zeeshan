@@ -1,4 +1,4 @@
-// Verilog code to detect any change in a 32-bit wide signal. It should generate a one-shot signal after detecting a change.
+// Verilog code to detect any change in a 32-bit wide signal. It should generate a one-shot signal after detecting a change. 
 
 module change_detect(
   input logic clk, rst,

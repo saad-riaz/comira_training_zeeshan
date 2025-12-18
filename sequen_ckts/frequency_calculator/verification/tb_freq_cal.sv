@@ -1,4 +1,4 @@
-module tb_freq_cal #(parameter SIG_HALF_FREQ = 10ns)();
+module tb_freq_cal #(parameter SIG_HALF_FREQ = 10ns)(); 
 
   localparam CLK_HALF_PERIOD = 5ns;
   localparam FREQ = 1/(2*(CLK_HALF_PERIOD));
