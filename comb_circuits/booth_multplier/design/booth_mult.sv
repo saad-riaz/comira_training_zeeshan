@@ -1,3 +1,6 @@
+// sir, i am unable to make the required necassary changes in design to
+// achieve the correct result (-128) for the case (-128 x 1), a set of signed decimal
+// values
 module booth_mult (
   input  logic signed [7:0] multiplicand,
   input  logic signed [7:0] multiplier,
@@ -10,7 +13,7 @@ module booth_mult (
 
   always_comb begin
     A = $signed({multiplicand, 9'b0}); 
-    S = $signed({-multiplicand, 9'b0}); 
+    S = $signed({-(multiplicand), 9'b0}); 
     P = $signed({8'b0, multiplier, 1'b0});
 
     for (i = 0; i < 8; i++) begin
